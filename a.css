@@ -2364,7 +2364,24 @@ padding-right: 12px;
 
 
 
+.strzalki {
 
+  display:inline;
+
+}
+
+
+@media screen and (max-width: 930px) {
+
+
+  .strzalki {
+
+    display:none;
+
+  }
+
+
+}
 
 
      
