@@ -1409,7 +1409,10 @@ align-items: center;
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
   position: relative;
-  height: auto;
+
+ height: auto;
+
+
   border-top: 0;
   
 }
@@ -1513,6 +1516,7 @@ align-items: center;
     
   width: 100%;
   overflow: hidden;
+
   max-height: 0;
 
   transition: max-height 1s cubic-bezier(.44, .99, .48, 1) ;
@@ -1540,6 +1544,7 @@ height: auto;
    */
  
 height: auto;
+overflow: visible;
   max-height: 800px;
 }
 
@@ -1938,7 +1943,7 @@ opacity: 1;
 
 .tooltip2, .tooltip2down {
   position: relative;
-  z-index: 2;
+  z-index: 4;
     font-size: 20px;
   
 
@@ -1959,7 +1964,7 @@ opacity: 1;
   border-radius: 6px;
   padding: 15px 15px;
   position: absolute;
-
+  
   top: 1.6em;
   left:  -50%;
   margin-left:1em;
@@ -1980,6 +1985,7 @@ width: 23vw;
   border-radius: 6px;
   padding: 15px 15px;
   position: absolute;
+  
 
   top: 1.6em;
   left:  17vw;
