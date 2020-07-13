@@ -1256,12 +1256,14 @@ display: inline;
 
 .popup {
 
-  margin: 70px auto;
-  padding: 20px;
+  margin: 20px auto;
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background: #fff;
   border-radius: 5px;
- width: 85vw;
-    height: 85vh;
+ width: 88vw;
+    height: 95vh;
   position: relative;
   transition: all 5s ease-in-out;
 }
@@ -1327,7 +1329,7 @@ display: inline;
      
      
 .popup .content  {
-  max-height: 69vh;
+  max-height: 75vh;
   overflow: auto;
 }
      
