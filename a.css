@@ -1298,7 +1298,8 @@ display: inline;
   position: absolute;
     text-justify: auto;
     justify-content: center;
-  top: 20px;
+  top: 5px;
+
   right: 30px;
   transition: all 200ms;
   font-size: 30px;
