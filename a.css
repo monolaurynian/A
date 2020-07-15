@@ -1980,7 +1980,8 @@ opacity: 1;
 .tooltip2down span {
 
   visibility: hidden;
-width: 23vw;
+width: 80vh;
+ 
   background-color: #000;
   color: #fff;
     font-size: 17px;
@@ -1991,8 +1992,10 @@ width: 23vw;
   
 
   top: 1.6em;
-  left:  17vw;
-  margin-left:-39vw;
+  left:  4vw;
+ 
+
+  
   opacity: 0;
   transition: opacity 1s;
 }
