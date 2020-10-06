@@ -1585,21 +1585,23 @@ label:hover
   /**
   * the value of the `max-height` property specifies the transition speed
   * set a very big value (e.g. 9999px) to see the difference
+  extend, when container is to short for all items
   */
 
   height: auto;
-  max-height: 800px;
+  max-height: 1600px;
 }
 
 .czekboksik:checked ~ div {
   /**
   * the value of the `max-height` property specifies the transition speed
   * set a very big value (e.g. 9999px) to see the difference
+  extend, when container is to short for all items
   */
 
   height: auto;
   overflow: visible;
-  max-height: 800px;
+  max-height: 1600px;
 }
 
 
